@@ -1,0 +1,40 @@
+.h1{
+    text-align: center;
+}
+
+.h1 h1{
+    margin-top: 3%;
+}
+
+
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* در سایز موبایل به سطرهای جداگانه تغییر می‌کند */
+    justify-content: space-between; /* تنظیم فاصله بین تصاویر */
+}
+
+.image-box {
+    flex-basis: calc(25% - 10px); /* تنظیم عرض هر تصویر با فاصله دور آن */
+    text-align: center;
+    margin: 5px;
+    box-sizing: border-box; /* حساب کردن padding در محاسبه عرض */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* حفظ نسبت عرض به ارتفاع تصویر */
+    padding: 5px;
+}
+
+/* تغییرات در سایز موبایل */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* تغییر به حالت عمودی برای موبایل */
+    }
+}
+
+.bacnem{
+    background: url(../imags/background/2.svg) ;
+}

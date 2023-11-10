@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: f1;
+}
+
+@font-face {
+    font-family: f1;
+    src: url(../fonts/Vazir-Bold.woff);
+}
+
+body{
+    /* background-color: #f1f1f1 !important; */
+    /* background: url(../imags/background/820\ [Converted].svg) no-repeat; */
+}

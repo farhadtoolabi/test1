@@ -1,0 +1,33 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* در سایز موبایل به سطرهای جداگانه تغییر می‌کند */
+    justify-content: space-between; /* تنظیم فاصله بین تصاویر */
+}
+
+.image-box {
+    flex-basis: calc(25% - 10px); /* تنظیم عرض هر تصویر با فاصله دور آن */
+    text-align: center;
+    margin: 5px;
+    box-sizing: border-box; /* حساب کردن padding در محاسبه عرض */
+}
+
+
+.bacnem{
+    margin-top: 7%;
+}
+
+
+.h1{
+    text-align: center;
+}
+
+
+
+
+/* تغییرات در سایز موبایل */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* تغییر به حالت عمودی برای موبایل */
+        display: block;
+    }
+}

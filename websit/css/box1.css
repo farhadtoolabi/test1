@@ -1,0 +1,15 @@
+.box11{
+    background-color: rgba(238, 234, 234, 0.667);
+    width: 10%;
+    height: auto;
+    padding: 2%;
+    direction: rtl;
+}
+
+.box11 p{
+    text-align: justify;
+}
+
+.box11 h1{
+    text-align: right;
+}
